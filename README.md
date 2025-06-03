@@ -1,4 +1,4 @@
-# ParcelPerform EDD Dashboard
+# ParcelPerform Takehome
 
 An interactive Streamlit application to analyze parcel delivery data, compute Estimated Delivery Dates (EDDs), evaluate EDD accuracy, and surface key operational insights.
 
