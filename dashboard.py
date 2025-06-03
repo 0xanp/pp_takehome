@@ -51,7 +51,7 @@ def render_part1():
     Display SQL query snippets for Part 1 along with explanations.
     """
     st.markdown("""
-## Part 1: SQL Analysis (Conceptual)
+## Part 1: SQL Questions
 
 Below are the SQL queries (and brief notes) addressing Part 1 questions. These snippets illustrate how to run them against the database—no runtime computation is performed here.
 
@@ -526,7 +526,7 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-    st.markdown('<h1 class="main-header">📦 ParcelPerform EDD Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">📦 ParcelPerform Takehome</h1>', unsafe_allow_html=True)
 
     # Load data once
     with st.spinner("Loading data..."):
@@ -544,7 +544,7 @@ def main():
     st.markdown("---")
     part3_data_exploration(parcel_with_edd, log_df)
     st.markdown("---")
-    st.markdown("**📝 Data Analyst Take-Home (All Parts) | Built with Pandas**")
+    st.markdown("**📝 Data Analyst Take-Home (All Parts) | Built with Streamlit | An Pham**")
 
 if __name__ == "__main__":
     main()
